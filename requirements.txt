@@ -1,0 +1,11 @@
+# Backend (FastAPI + SQLite + Gemini)
+# Recommend Python 3.11 or 3.12 for prebuilt wheels (newer Python versions may compile deps from source).
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sqlalchemy>=2.0.36
+python-multipart>=0.0.12
+pydantic>=2.9.0
+pydantic-settings>=2.6.0
+google-generativeai>=0.8.3
+Pillow>=10.4.0
+python-dotenv>=1.0.1
