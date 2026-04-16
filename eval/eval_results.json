@@ -1,0 +1,1547 @@
+{
+  "paths": {
+    "labels_file": "C:\\Users\\pavan\\fash_garm\\eval\\labeled_dataset_normalized.json",
+    "images_dir": "C:\\Users\\pavan\\fash_garm\\data\\fash_pics",
+    "output_file": "C:\\Users\\pavan\\fash_garm\\eval\\eval_results.json"
+  },
+  "counts": {
+    "labeled_items": 51,
+    "image_files_found": 52,
+    "processed": 50,
+    "skipped_missing": 0,
+    "failed_classification": 1
+  },
+  "summary": {
+    "garment_type": {
+      "correct": 24,
+      "total": 50,
+      "accuracy": 0.48
+    },
+    "style": {
+      "correct": 31,
+      "total": 50,
+      "accuracy": 0.62
+    },
+    "material": {
+      "correct": 26,
+      "total": 50,
+      "accuracy": 0.52
+    },
+    "occasion": {
+      "correct": 41,
+      "total": 50,
+      "accuracy": 0.82
+    },
+    "location_context": {
+      "correct": 50,
+      "total": 50,
+      "accuracy": 1.0
+    }
+  },
+  "results": [
+    {
+      "filename": "istockphoto-1922703877-1024x1024.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "t-shirt",
+          "predicted": "t-shirt",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "streetwear",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "istockphoto-2178489544-1024x1024.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jacket",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-a-darmel-8989537.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "blazer",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "casual",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-abubakar-mamman-2148132108-36571373.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "top",
+          "predicted": "set",
+          "match": false
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-alessandra-shalbe-859114866-20238933.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "blazer",
+          "match": true
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "wool",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-armagan-basaran-107016502-18870442.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "t-shirt",
+          "predicted": "t-shirt",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-blackben-33572883.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "trousers",
+          "match": false
+        },
+        "style": {
+          "expected": "formal",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "wool",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "formal",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-bmh-shot-it-1861805935-31980389.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "shirt",
+          "predicted": "set",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "synthetic",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-brandon-retratos-768594541-34225952.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jeans",
+          "predicted": "trousers",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-bymuratisikofficial-29336548.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "coat",
+          "match": false
+        },
+        "style": {
+          "expected": "maximalist",
+          "predicted": "streetwear",
+          "match": false
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "synthetic",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-bymuratisikofficial-36917585.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jeans",
+          "match": false
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-chichebe-chidiebere-1250819667-32007512.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "shirt",
+          "predicted": "shirt",
+          "match": true
+        },
+        "style": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-ciro-palomba-1275986148-30931146.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "hoodie",
+          "predicted": "jacket",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "denim",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-cottonbro-7407385.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jacket",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "leather",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-dhanno-32347615.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "dress",
+          "match": true
+        },
+        "style": {
+          "expected": "ethnic",
+          "predicted": "ethnic",
+          "match": true
+        },
+        "material": {
+          "expected": "silk",
+          "predicted": "cotton",
+          "match": false
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "formal",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-dmitry-ovsyannikov-271243380-33505603.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jumpsuit",
+          "predicted": "trousers",
+          "match": false
+        },
+        "style": {
+          "expected": "minimalist",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "formal",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-ernestorosas-35689915.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "skirt",
+          "predicted": "set",
+          "match": false
+        },
+        "style": {
+          "expected": "ethnic",
+          "predicted": "ethnic",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "knit",
+          "match": false
+        },
+        "occasion": {
+          "expected": "festive",
+          "predicted": "casual",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-felix-young-449360607-33886931.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "gown",
+          "match": false
+        },
+        "style": {
+          "expected": "editorial",
+          "predicted": "avant-garde",
+          "match": false
+        },
+        "material": {
+          "expected": "tulle",
+          "predicted": "tulle",
+          "match": true
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "formal",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-felix-young-449360607-33971861.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "coat",
+          "predicted": "coat",
+          "match": true
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "synthetic",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-gabriela-brasiliano-515209300-32247581.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "shirt",
+          "predicted": "set",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "knit",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-guillermo-berlin-1524368912-36905077.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blouse",
+          "predicted": "blouse",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "satin",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-hanna-alves-1907982668-28806541.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "cardigan",
+          "predicted": "blazer",
+          "match": false
+        },
+        "style": {
+          "expected": "ethnic",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "knit",
+          "predicted": "cotton",
+          "match": false
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "editorial",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-jake-fosmire-2160622813-36862793.jpg",
+      "error": "503 UNAVAILABLE. {'error': {'code': 503, 'message': 'Deadline expired before operation could complete.', 'status': 'UNAVAILABLE'}}"
+    },
+    {
+      "filename": "pexels-kat-carabio-2160013554-37076989.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "dress",
+          "match": true
+        },
+        "style": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "material": {
+          "expected": "tulle",
+          "predicted": "tulle",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-kenzero14-5209066.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "skirt",
+          "match": false
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "knit",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-kimberly-alves-2160417495-36866509.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "skirt",
+          "predicted": "skirt",
+          "match": true
+        },
+        "style": {
+          "expected": "ethnic",
+          "predicted": "ethnic",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "knit",
+          "match": false
+        },
+        "occasion": {
+          "expected": "festive",
+          "predicted": "casual",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-marcus-queiroga-silva-86421404-29421070.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "t-shirt",
+          "predicted": "shirt",
+          "match": false
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-mertcoskunraw-36442742.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jacket",
+          "match": true
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "synthetic",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-minan1398-1066171.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "shirt",
+          "match": false
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "avant-garde",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-mustapha-damilola-458083529-31437528.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "dress",
+          "match": true
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "mesh",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "formal",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-nikitash-21614980.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "top",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-niko-mondi-313367152-30816952.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "shirt",
+          "predicted": "trousers",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-oscar-steiner-982093-36976475.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "coat",
+          "predicted": "jacket",
+          "match": false
+        },
+        "style": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "material": {
+          "expected": "jacquard",
+          "predicted": "jacquard",
+          "match": true
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "editorial",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-phamthe-31607521.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "dress",
+          "match": true
+        },
+        "style": {
+          "expected": "minimalist",
+          "predicted": "casual",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-pietro-henricky-1289770821-28508093.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "set",
+          "match": false
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "avant-garde",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-pietro-henricky-1289770821-30737627.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "set",
+          "predicted": "set",
+          "match": true
+        },
+        "style": {
+          "expected": "avant-garde",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "satin",
+          "predicted": "satin",
+          "match": true
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-rilkerainer-1055721.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "skirt",
+          "predicted": "jacket",
+          "match": false
+        },
+        "style": {
+          "expected": "maximalist",
+          "predicted": "avant-garde",
+          "match": false
+        },
+        "material": {
+          "expected": "knit",
+          "predicted": "leather",
+          "match": false
+        },
+        "occasion": {
+          "expected": "editorial",
+          "predicted": "editorial",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-ron-lach-9255738.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jumpsuit",
+          "predicted": "jumpsuit",
+          "match": true
+        },
+        "style": {
+          "expected": "minimalist",
+          "predicted": "casual",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-s-minh-151628940-12409631.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "dress",
+          "predicted": "gown",
+          "match": false
+        },
+        "style": {
+          "expected": "minimalist",
+          "predicted": "formal",
+          "match": false
+        },
+        "material": {
+          "expected": "chiffon",
+          "predicted": "satin",
+          "match": false
+        },
+        "occasion": {
+          "expected": "wedding",
+          "predicted": "wedding",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-sahfy-lenz-2153643467-36466495.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jacket",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-sahfy-lenz-2153643467-36466496.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "jacket",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "denim",
+          "predicted": "denim",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-sara-kazemi-2148049458-30754431.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jacket",
+          "predicted": "blazer",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "synthetic",
+          "predicted": "synthetic",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-silverkblack-36730375.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "t-shirt",
+          "predicted": "coat",
+          "match": false
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "wool",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-silverkblack-36730419.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "jeans",
+          "predicted": "jeans",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "streetwear",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "denim",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-vika-glitter-392079-32218335.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "coat",
+          "predicted": "blazer",
+          "match": false
+        },
+        "style": {
+          "expected": "maximalist",
+          "predicted": "editorial",
+          "match": false
+        },
+        "material": {
+          "expected": "wool",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "formal",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-wendywei-2966403.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "blazer",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "wool",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "casual",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-whoisquomo-34191723.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "tunic",
+          "predicted": "shirt",
+          "match": false
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "ethnic",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-tony-schnagl-5588220.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "sweatshirt",
+          "predicted": "sweatshirt",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-tima-miroshnichenko-5703540.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "hoodie",
+          "predicted": "hoodie",
+          "match": true
+        },
+        "style": {
+          "expected": "streetwear",
+          "predicted": "casual",
+          "match": false
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-cottonbro-3201720.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "blazer",
+          "predicted": "blazer",
+          "match": true
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "wool",
+          "predicted": "synthetic",
+          "match": false
+        },
+        "occasion": {
+          "expected": "formal",
+          "predicted": "casual",
+          "match": false
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    },
+    {
+      "filename": "pexels-ron-lach-8590255.jpg",
+      "comparisons": {
+        "garment_type": {
+          "expected": "sweatshirt",
+          "predicted": "top",
+          "match": false
+        },
+        "style": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "material": {
+          "expected": "cotton",
+          "predicted": "cotton",
+          "match": true
+        },
+        "occasion": {
+          "expected": "casual",
+          "predicted": "casual",
+          "match": true
+        },
+        "location_context": {
+          "expected": "unknown",
+          "predicted": "unknown",
+          "match": true
+        }
+      }
+    }
+  ]
+}

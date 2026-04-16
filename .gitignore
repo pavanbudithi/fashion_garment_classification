@@ -1,9 +1,26 @@
-.env
+# virtual env
 .venv/
 venv/
+
+# python cache
 __pycache__/
 *.py[cod]
 .pytest_cache/
-.mypy_cache/
-data/
+
+# environment
+.env
+
+# local database
 *.db
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# uploads (optional: keep if you do not want to commit imported images)
+# data/uploads/
+
+# test / temp artifacts
+htmlcov/
+.coverage

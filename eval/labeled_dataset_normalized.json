@@ -1,0 +1,716 @@
+[
+  {
+    "filename": "istockphoto-1922703877-1024x1024.jpg",
+    "expected": {
+      "garment_type": "t-shirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "striped, solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "istockphoto-2178489544-1024x1024.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-a-darmel-8989537.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "formal",
+      "pattern": "striped, solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-abubakar-mamman-2148132108-36571373.jpg",
+    "expected": {
+      "garment_type": "top",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-alessandra-shalbe-859114866-20238933.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "avant-garde",
+      "material": "wool",
+      "occasion": "editorial",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-armagan-basaran-107016502-18870442.jpg",
+    "expected": {
+      "garment_type": "t-shirt",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "graphic print, solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-blackben-33572883.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "formal",
+      "material": "wool",
+      "occasion": "formal",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-bmh-shot-it-1861805935-31980389.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "streetwear",
+      "material": "synthetic",
+      "occasion": "casual",
+      "pattern": "abstract print",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-brandon-retratos-768594541-34225952.jpg",
+    "expected": {
+      "garment_type": "jeans",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-bymuratisikofficial-29336548.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "maximalist",
+      "material": "synthetic",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-bymuratisikofficial-36917585.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "casual",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-chichebe-chidiebere-1250819667-32007512.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "editorial",
+      "material": "cotton",
+      "occasion": "editorial",
+      "pattern": "solid",
+      "time_season": "transitional",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-ciro-palomba-1275986148-30931146.jpg",
+    "expected": {
+      "garment_type": "hoodie",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "graphic print, solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-cottonbro-7407385.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "synthetic",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-dhanno-32347615.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "ethnic",
+      "material": "silk",
+      "occasion": "formal",
+      "pattern": "embroidered",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-dmitry-ovsyannikov-271243380-33505603.jpg",
+    "expected": {
+      "garment_type": "jumpsuit",
+      "style": "minimalist",
+      "material": "cotton",
+      "occasion": "formal",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-ernestorosas-35689915.jpg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "ethnic",
+      "material": "cotton",
+      "occasion": "festive",
+      "pattern": "printed, embroidered",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-felix-young-449360607-33886931.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "editorial",
+      "material": "tulle",
+      "occasion": "formal",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-felix-young-449360607-33971861.jpg",
+    "expected": {
+    "garment_type": "coat",
+    "style": "avant-garde",
+    "material": "synthetic",
+    "occasion": "editorial",
+    "pattern": "textured, spotted",
+    "time_season": "winter",
+    "location_continent": null,
+    "location_country": null,
+    "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-gabriela-brasiliano-515209300-32247581.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "striped, solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-guillermo-berlin-1524368912-36905077.jpg",
+    "expected": {
+      "garment_type": "blouse",
+      "style": "casual",
+      "material": "satin",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-hanna-alves-1907982668-28806541.jpg",
+    "expected": {
+      "garment_type": "cardigan",
+      "style": "ethnic",
+      "material": "knit",
+      "occasion": "formal",
+      "pattern": "embroidered",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-jake-fosmire-2160622813-36862793.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "formal",
+      "material": "tulle",
+      "occasion": "wedding",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-kat-carabio-2160013554-37076989.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "editorial",
+      "material": "tulle",
+      "occasion": "editorial",
+      "pattern": "solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-kenzero14-5209066.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "casual",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "houndstooth, solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-kimberly-alves-2160417495-36866509.jpg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "ethnic",
+      "material": "cotton",
+      "occasion": "festive",
+      "pattern": "printed, embroidered",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-marcus-queiroga-silva-86421404-29421070.jpg",
+    "expected": {
+      "garment_type": "t-shirt",
+      "style": "avant-garde",
+      "material": "cotton",
+      "occasion": "editorial",
+      "pattern": "graphic print",
+      "time_season": "transitional",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-mertcoskunraw-36442742.jpg",
+    "expected": {
+    "garment_type": "jacket",
+    "style": "avant-garde",
+    "material": "synthetic",
+    "occasion": "editorial",
+    "pattern": "solid, lace trim",
+    "time_season": "transitional",
+    "location_continent": null,
+    "location_country": null,
+    "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-minan1398-1066171.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "avant-garde",
+      "material": "denim",
+      "occasion": "editorial",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-mustapha-damilola-458083529-31437528.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "avant-garde",
+      "material": "mesh",
+      "occasion": "editorial",
+      "pattern": "abstract print",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-nikitash-21614980.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid, graphic print",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-niko-mondi-313367152-30816952.jpg",
+    "expected": {
+      "garment_type": "shirt",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-oscar-steiner-982093-36976475.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "editorial",
+      "material": "jacquard",
+      "occasion": "formal",
+      "pattern": "embroidered, textured",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-phamthe-31607521.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "minimalist",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-pietro-henricky-1289770821-28508093.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "avant-garde",
+      "material": "cotton",
+      "occasion": "editorial",
+      "pattern": "textured, knotted detail",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-pietro-henricky-1289770821-30737627.jpg",
+    "expected": {
+      "garment_type": "set",
+      "style": "avant-garde",
+      "material": "satin",
+      "occasion": "editorial",
+      "pattern": "abstract print",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-rilkerainer-1055721.jpg",
+    "expected": {
+      "garment_type": "skirt",
+      "style": "maximalist",
+      "material": "knit",
+      "occasion": "editorial",
+      "pattern": "floral, animal print, textured",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-ron-lach-9255738.jpg",
+    "expected": {
+      "garment_type": "jumpsuit",
+      "style": "minimalist",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-s-minh-151628940-12409631.jpg",
+    "expected": {
+      "garment_type": "dress",
+      "style": "minimalist",
+      "material": "chiffon",
+      "occasion": "wedding",
+      "pattern": "solid",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-sahfy-lenz-2153643467-36466495.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "plaid, solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-sahfy-lenz-2153643467-36466496.jpg",
+    "expected": {
+      "garment_type": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "pattern": "plaid, solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-sara-kazemi-2148049458-30754431.jpg",
+    "expected": {
+    "garment_type": "jacket",
+    "style": "streetwear",
+    "material": "synthetic",
+    "occasion": "casual",
+    "pattern": "solid",
+    "time_season": "fall",
+    "location_continent": null,
+    "location_country": null,
+    "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-silverkblack-36730375.jpg",
+    "expected": {
+      "garment_type": "t-shirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "striped",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-silverkblack-36730419.jpg",
+    "expected": {
+      "garment_type": "jeans",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "summer",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-vika-glitter-392079-32218335.jpg",
+    "expected": {
+      "garment_type": "coat",
+      "style": "maximalist",
+      "material": "wool",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-wendywei-2966403.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "casual",
+      "material": "wool",
+      "occasion": "formal",
+      "pattern": "pinstripe, solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-whoisquomo-34191723.jpg",
+    "expected": {
+      "garment_type": "tunic",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "colorblock",
+      "time_season": "spring",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-tony-schnagl-5588220.jpg",
+    "expected": {
+      "garment_type": "sweatshirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-tima-miroshnichenko-5703540.jpg",
+    "expected": {
+      "garment_type": "hoodie",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-cottonbro-3201720.jpg",
+    "expected": {
+      "garment_type": "blazer",
+      "style": "casual",
+      "material": "wool",
+      "occasion": "formal",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  },
+  {
+    "filename": "pexels-ron-lach-8590255.jpg",
+    "expected": {
+      "garment_type": "sweatshirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "pattern": "solid",
+      "time_season": "fall",
+      "location_continent": null,
+      "location_country": null,
+      "location_city": null
+    }
+  }
+]
